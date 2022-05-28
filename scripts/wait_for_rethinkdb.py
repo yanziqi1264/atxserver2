@@ -19,6 +19,6 @@ while time.time() < deadline:
         sys.exit(0)
     except Exception as e:
         time.sleep(.2)
-        #print(e, end="")
+        # print(e, end="")
 
 sys.exit("RethinkDB is not started")
